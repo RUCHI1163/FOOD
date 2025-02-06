@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url(photo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    font-family: sans-serif; 
+}
+.logo{
+    width: 130px;
+    margin-left: 8%;
+    margin-top: 1%;
+}
+.banner-info{
+    margin-left: 8%;
+    margin-top: 100px;
+}
+.banner-info h1{
+    font-size: 60px;
+    color:aliceblue;
+}
+.banner-info p{
+    margin: 20px 0;
+    color:dimgray;
+}
+button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: darkorange;
+    color: #fff;
+    font-weight: 600;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+}
+ul li a{
+    color: darkorange;
+}
